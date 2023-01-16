@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center; 
+}
+nav li{
+  margin-left: 35px;
+}
+/* main title */
+.main-title{
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+.title-description{
+  color:#727272;
+  margin-top: 20px;
+  font-size: 16px;
+}
+/* button primary */
+.button-primary{
+  margin-top: 20px;
+  background-color: rgba(255, 128, 0, 0.886);
+  padding: 15px;
+  border-radius: 8px;
+  color:#FFFFFF;
+  border: #FFFFFF;
+}
+/* banner */
+img{
+  margin-top:50px;
+  width: 80%;
+  margin-left: 135px;
+}
+/* features */
+.feature-photos{
+  display: flex; 
+}
+.photos{
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+.feature-title{
+  padding-top: 140px;
+  margin-left: 250px;
+  font-size: 35px;
+}
+.feature-description{
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.button-primary-2{
+  margin-left: 250px;
+  margin-top: 20px;
+  background-color: rgba(255, 128, 0, 0.886);
+  padding: 15px;
+  border-radius: 8px;
+  color:#FFFFFF;
+  border: #FFFFFF;
+}
+/* features you enjoy */
+.enjoy{
+  background-image: url(../images/architect1122.png);
+  background-repeat: no-repeat;
+  background-position: right 35% bottom 65%;
+  padding-top: 50px;
+  margin-top: 50px;
+  height: 600px;
+}
+.enjoy-title{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.features-enjoy{
+  margin-left: 170px;
+  text-align: left;
+  width: 400px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+.grey-description{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.button-experience{
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  background-color: rgba(255, 128, 0, 0.886);
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  color:#FFFFFF;
+  border: #FFFFFF;
+  margin-left: 420px;
+  position: relative;
+  bottom: 70px;
+}
+.button-exp{
+font-size: 25px;
+}
+/* meaningful quotes */
+.meaningful-quotes{
+  margin-top: 100px;
+  padding-top: 100px;
+  background-image: url(../images/meaningful.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position:right;
+  margin-right: 100px;
+  margin-bottom: 70px;
+}
+.meaningful-title{
+text-align: left;
+margin-left: 50px;
+padding-bottom: 20px;
+font-size: 25px;
+}
+.meaningful-quotes, ul{
+list-style-type: numbers;
+}
+
+/* some facts */
+.facts-title{
+font-size: 35px;
+font-weight: 800;
+padding-left: 380px;
+}
+.facts-description{
+color: grey;
+width: 360px;
+word-wrap: break-word;
+padding-left: 380px;
+}
+/* icons----- */
+.all-box{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.icon-1{
+  width: 50px;
+  height: 60px;
+  position: relative;
+  margin-left: 50px;
+}
+.box-1{
+  border: 2px solid #ff8f0ea9;
+  height: 160px;
+  width:160px;
+}
+.h3-tag{
+  margin-left: 56px;
+}
+
+.prize{
+  margin-left: 32px;
+}
+.box-1:hover{
+  background-color: rgba(68, 96, 151, 0.297);
+}
+/* our sponsors */
+.sponsor-title{
+  padding-top: 50px ;
+  text-align: center;
+}
+.sponsor-description{
+  width: 370px;
+  margin-left: 530px;
+  margin-top: 30px;
+}
+/* sponsors pictures */
+  .sponsor-pictures{
+  display: flex;
+  width: 150px;
+  }
+  /* footer-description */
+  .footer-description{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 70px;
+  }
